@@ -1,0 +1,122 @@
+{
+	"name": "tbl_driver",
+	"properties": {
+		"idDriver": {
+			"type": "number",
+			"required": true,
+			"length": null,
+			"precision": 10,
+			"scale": 0,
+			"id": 1,
+			"mysql": {
+				"columnName": "id_driver",
+				"dataType": "int",
+				"dataLength": null,
+				"dataPrecision": 10,
+				"dataScale": 0,
+				"nullable": "N"
+			},
+			"updateOnly": false
+		},
+		"name": {
+			"type": "string",
+			"required": true,
+			"length": 55,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "name",
+				"dataType": "varchar",
+				"dataLength": 55,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "N"
+			}
+		},
+		"lastName": {
+			"type": "string",
+			"required": true,
+			"length": 55,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "last_name",
+				"dataType": "varchar",
+				"dataLength": 55,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "N"
+			}
+		},
+		"plaque": {
+			"type": "string",
+			"required": true,
+			"length": 10,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "plaque",
+				"dataType": "varchar",
+				"dataLength": 10,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "N"
+			}
+		},
+		"vehicle": {
+			"type": "string",
+			"required": true,
+			"length": 25,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "vehicle",
+				"dataType": "varchar",
+				"dataLength": 25,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "N"
+			}
+		},
+		"status": {
+			"type": "number",
+			"required": true,
+			"length": null,
+			"precision": 3,
+			"scale": 0,
+			"mysql": {
+				"columnName": "status",
+				"dataType": "tinyint",
+				"dataLength": null,
+				"dataPrecision": 3,
+				"dataScale": 0,
+				"nullable": "N"
+			}
+		},
+		"dateRecord": {
+			"type": "date",
+			"required": true,
+			"length": null,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "date_record",
+				"dataType": "datetime",
+				"dataLength": null,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "N"
+			}
+		}
+	},
+	"settings": {
+		"strict": false,
+		"forceId": false,
+		"replaceOnPUT": true,
+		"idInjection": false,
+		"mysql": {
+			"schema": "test_imagine",
+			"table": "tbl_driver"
+		}
+	}
+}

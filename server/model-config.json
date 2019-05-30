@@ -1,0 +1,54 @@
+{
+	"_meta": {
+		"sources": [
+			"loopback/common/models",
+			"loopback/server/models",
+			"../common/models",
+			"./models"
+		],
+		"mixins": [
+			"loopback/common/mixins",
+			"loopback/server/mixins",
+			"../common/mixins",
+			"./mixins"
+		]
+	},
+	"User": {
+		"dataSource": "test_imagine"
+	},
+	"AccessToken": {
+		"dataSource": "test_imagine",
+		"public": false
+	},
+	"ACL": {
+		"dataSource": "test_imagine",
+		"public": false
+	},
+	"RoleMapping": {
+		"dataSource": "test_imagine",
+		"public": false,
+		"options": {
+			"strictObjectIDCoercion": true
+		}
+	},
+	"Role": {
+		"dataSource": "test_imagine",
+		"public": false
+	},
+	"tbl_address": {
+		"dataSource": "test_imagine",
+		"public": true
+	},
+	"tbl_client": {
+		"dataSource": "test_imagine",
+		"public": true
+	},
+	"tbl_driver": {
+		"dataSource": "test_imagine",
+		"public": true
+	},
+	"tbl_order": {
+		"dataSource": "test_imagine",
+		"public": true
+	}
+}
