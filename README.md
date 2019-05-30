@@ -10,7 +10,7 @@ Proyecto hecho bajo tecnología LoopBack NodeJS y MySQL.
 
 npm install
 
-node app.js
+node .
 
 
 http://localhost:3000/explorer/
